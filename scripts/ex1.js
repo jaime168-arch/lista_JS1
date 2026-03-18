@@ -12,7 +12,6 @@ function somarNumeros(){
         }
         continuar = confirm("Deseja adicionar mais um número?")
     }
-    alert("A soma dos números é:"^+ soma);
+    alert("A soma dos números é:" + soma);
 }
 
-somarNumeros();
